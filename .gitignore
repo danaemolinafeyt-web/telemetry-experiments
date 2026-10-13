@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data — never commit generated data, it can be regenerated from the script
+data/
+*.csv
+*.parquet
+*.db
+
+# OS
+.DS_Store
